@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96"><defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8f8044"/><stop offset="1" stop-color="#463e1c"/></linearGradient>
+<linearGradient id="cr" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fffeed"/><stop offset="1" stop-color="#d6cead"/></linearGradient>
+<linearGradient id="gd" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f3d27e"/><stop offset="1" stop-color="#b8892f"/></linearGradient>
+<linearGradient id="sg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#d3dc9a"/><stop offset="1" stop-color="#7d8a45"/></linearGradient>
+<radialGradient id="glow" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#f3d27e" stop-opacity=".55"/><stop offset="1" stop-color="#f3d27e" stop-opacity="0"/></radialGradient>
+</defs><rect x="1" y="1" width="94" height="94" rx="20" fill="url(#bg)" stroke="#fffeed" stroke-opacity=".35" stroke-width="1.5"/><ellipse cx="48" cy="85" rx="18" ry="3.5" fill="#1d1a0c" opacity=".35"/>
+<path d="M38 52L31 82L39 77L44 85L50 58Z" fill="#b8892f"/><path d="M58 52L65 82L57 77L52 85L46 58Z" fill="#9c7428"/>
+<polygon points="48.0,15.5 52.2,19.5 57.8,17.7 59.8,23.1 65.6,24.0 65.1,29.8 69.9,33.0 67.0,38.0 69.9,43.0 65.1,46.2 65.6,52.0 59.8,52.9 57.8,58.3 52.2,56.5 48.0,60.5 43.8,56.5 38.2,58.3 36.2,52.9 30.4,52.0 30.9,46.2 26.1,43.0 29.0,38.0 26.1,33.0 30.9,29.8 30.4,24.0 36.2,23.1 38.2,17.7 43.8,19.5" fill="url(#gd)" stroke="#fffeed" stroke-width="1.5"/>
+<circle cx="48" cy="38" r="14" fill="url(#cr)"/>
+<polygon points="48.0,29.0 50.6,35.4 57.5,35.9 52.3,40.4 53.9,47.1 48.0,43.5 42.1,47.1 43.7,40.4 38.5,35.9 45.4,35.4" fill="#b8892f"/>
+<path d="M18 20Q18 24 22 24Q18 24 18 28Q18 24 14 24Q18 24 18 20Z" fill="#fffeed"/><path d="M80 16.5Q80 20 83.5 20Q80 20 80 23.5Q80 20 76.5 20Q80 20 80 16.5Z" fill="#f3d27e"/></svg>
