@@ -46,3 +46,7 @@ export default config({
     }),
   },
 });
+
+// Local mode reads and writes the server's files with no login, so it only runs on your
+// own machine. On the live site the portal is switched off until GitHub mode is set up.
+export const keystaticEnabled = Boolean(repo) || process.env.NODE_ENV === "development";
