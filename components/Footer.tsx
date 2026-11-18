@@ -26,6 +26,15 @@ export function Footer() {
   const linkedin = site.socials.find((s) => s.label === "LinkedIn");
   return (
     <footer className="site-footer">
+      <div className="footer-newsletter">
+        <div>
+          <p className="footer-head">Subscribe to our newsletter</p>
+          <h2>Get updates on: {site.newsletter.blurb}</h2>
+        </div>
+        <a href={site.newsletter.href} target="_blank" rel="noopener noreferrer" className="btn btn-gold">
+          SUBSCRIBE ON LINKEDIN <Arrow />
+        </a>
+      </div>
       <div className="footer-inner">
         <div className="footer-brand">
           <Link href="/" className="footer-logo">

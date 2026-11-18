@@ -20,5 +20,9 @@ export const site = {
     { label: "ABOUT US", href: "/about-us" },
     { label: "BLOGS", href: "/blog" },
   ],
+  newsletter: {
+    href: "https://www.linkedin.com/newsletters/imagination-meets-intelligence-7341802247787290624/",
+    blurb: "Where AI, GTM strategy, analytics, and creativity reshape business growth.",
+  },
   book: "https://www.amazon.com/Mix-Arts-TRANSFORMING-EDUCATION-DEVELOPMENT/dp/B0DGPQ9LTZ",
 };
