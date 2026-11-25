@@ -8,7 +8,7 @@ import { CtaBand } from "@/components/CtaBand";
 export const metadata: Metadata = {
   title: "Tools and Products",
   description:
-    "Tools and products built by MIWA, starting with Research Report, an AI agent skill that turns code analysis and research into typeset PDF technical documents.",
+    "Tools and products built by MIWA: Research Report, an AI agent skill that turns code analysis and research into typeset PDF technical documents, and RAG Testset Builder, which builds verifiable ground-truth test sets for RAG systems.",
   alternates: { canonical: "/tools-and-products" },
 };
 
@@ -71,18 +71,18 @@ export default function ToolsAndProducts() {
                 </dl>
               </div>
 
-              {p.sample && (
-                <figure className="product-sample">
+              {p.samples?.map((s) => (
+                <figure key={s.src} className="product-sample">
                   <Image
-                    src={p.sample.src}
-                    alt={p.sample.alt}
-                    width={p.sample.width}
-                    height={p.sample.height}
+                    src={s.src}
+                    alt={s.alt}
+                    width={s.width}
+                    height={s.height}
                     sizes="(max-width: 1100px) 100vw, 1100px"
                   />
-                  <figcaption>{p.sample.caption}</figcaption>
+                  <figcaption>{s.caption}</figcaption>
                 </figure>
-              )}
+              ))}
 
               <a href={p.link.href} target="_blank" rel="noopener noreferrer" className="btn btn-olive product-link">
                 {p.link.label} <Arrow />
